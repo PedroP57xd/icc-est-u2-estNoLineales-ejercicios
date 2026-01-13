@@ -145,7 +145,7 @@ Calcula la profundidad máxima de un árbol binario (la longitud del camino más
 - *Tema:* Estructuras No Lineales  
 - *Objetivo:* Implementar operaciones sobre árboles binarios  
 - *Desarrolladores:* Pedro Panjón
-- *Fecha:* 06/07/2025
+- *Fecha:* 13/01/2026
 
 🛠 *Descripción*  
 Este proyecto implementa diferentes operaciones sobre árboles binarios, utilizando estructuras y algoritmos fundamentales de las estructuras de datos no lineales.
