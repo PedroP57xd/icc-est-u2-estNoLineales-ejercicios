@@ -137,6 +137,7 @@ Calcula la profundidad máxima de un árbol binario (la longitud del camino más
 **Output esperado:** `4`
 
 ---
+
 </details>
 
 # Estructuras No Lineales – Ejercicios Árboles  
@@ -152,15 +153,16 @@ Este proyecto implementa diferentes operaciones sobre árboles binarios, utiliza
 
 📘 *Descripción de Ejercicios*  
 
-### 🟩 Ejercicio 01 – Insertar en Árbol Binario de Búsqueda (BST)  
-🔧 **Clase:** `BinarySearchTree`  
+### 🟩 Ejercicio 01 – Insertar en un Árbol Binario de Búsqueda (BST)
+🔧 **Clase:** `InsertBST`  
 📌 **Descripción:**  
-Este ejercicio implementa un árbol binario de búsqueda (BST) y permite insertar nodos respetando las reglas del BST:  
-- Los valores menores al nodo van a la izquierda.  
-- Los valores mayores van a la derecha.  
+Este ejercicio implementa un árbol binario de búsqueda (BST) y permite insertar nodos respetando las reglas del BST:
+
+    -Los valores menores al nodo se insertan en el subárbol izquierdo.
+    -Los valores mayores al nodo se insertan en el subárbol derecho. 
 
 🧠 **Lógica usada:**  
-Se utiliza recursión para encontrar la posición correcta donde insertar un nuevo nodo, comparando su valor con el nodo actual.
+Se utiliza recursión para recorrer el árbol comparando el valor a insertar con el nodo actual hasta encontrar la posición correcta.
 
 📥 **Entrada:** Número entero a insertar.  
 📤 **Salida:** Árbol binario actualizado.
@@ -268,5 +270,6 @@ Para contribuir a este proyecto, por favor crea un fork y envía una solicitud d
 ## Autores
 
 - [PABLO TORRES] - Desarrollo inicial
+
 
 </details>
